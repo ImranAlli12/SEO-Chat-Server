@@ -1,9 +1,9 @@
 const express = require("express");
 const dotenv = require("dotenv");
-const connectionDB = require("./config/db");
-const userRoutes = require("./routes/user.routes")
-const chatRoutes = require("./routes/chat.routes")
-const messageRoutes = require("./routes/message.routes")
+const connectionDB = require("./src/config/db");
+const userRoutes = require("./src/routes/user.routes")
+const chatRoutes = require("./src/routes/chat.routes")
+const messageRoutes = require("./src/routes/message.routes")
 
 const cors = require('cors');
 
