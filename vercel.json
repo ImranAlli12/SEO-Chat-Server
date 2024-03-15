@@ -11,5 +11,10 @@
             "src": "/(.*)",
             "dest": "server.js"
         }
-    ]
+    ],
+    "functions": {
+        "pages/*.js": {
+            "maxDuration": 30
+        }
+    }
 }
